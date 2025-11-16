@@ -1,3 +1,6 @@
+// webpack.config.cjs
+const path = require('path'); // Используем require вместо import
+
 module.exports = {
   mode: 'development', // или 'production'
   module: {
